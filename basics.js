@@ -13,6 +13,8 @@ const teacherName = "Karl Rauniste";
     // Muutujate nimetus on camelCase and it makes some sense
     const fruit = "Banaan"; // Muutuja mida ei saa enam muuta
 let model ="BMW";  // Muutuja, mida saab veel muuta
+const nullableVariable = null // Null tähendab, et muutujal ei ole väärtust
+const undefinedVariable = undefined; //
 // snake_Case
 // snakeCase
 
@@ -60,6 +62,19 @@ for(i = 0; i < characters.length; i++){
 characters.forEach((char) => {
     console.log("For Each Loop: ", char);
 });
+
+/**
+ * comparison - võrdlus
+ * == vs === vs Object.is()
+ * Object.is() is same thing as ===
+ */
+
+// == compares values of both side. As values they are both equal: 5 or "5".0
+console.log(5 == "5");
+
+
+// === compares value and data-type of both sides. number 5 is not equal to string 5.
+console.log(5 === "5"); // return False
 
 
 
